@@ -293,7 +293,7 @@ background-color: #6C63FF;
     .line_text{
         display: flex;
         flex-direction: column;
-        padding: 5%;
+        padding: 3%;
     }
     .text_for_logo{
         font-family: 'Recursive',sans-serif;
