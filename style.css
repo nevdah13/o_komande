@@ -35,6 +35,7 @@ background-color: #6C63FF;
         position: sticky;
         background-color: #111111;
         height: 115px;
+        z-index: 10;
         }
         .header__inner{
         display: flex;
@@ -109,12 +110,7 @@ background-color: #6C63FF;
         color: #FFFFFF;
         width: 70%;
         }
-    .top_klyaksa{
-        position: absolute;
-        right:0;
-        top: 0;
-        z-index: -1;
-    }
+    
     #slider { /*положение слайдера*/
         position: relative;
         text-align: center;
@@ -282,7 +278,7 @@ background-color: #6C63FF;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        margin-top: 328px;
+        margin-top: 128px;
     } 
     .first_row{
         display: flex;
